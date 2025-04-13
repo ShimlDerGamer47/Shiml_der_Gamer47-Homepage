@@ -800,7 +800,7 @@ iframe {
     width: auto;
     height: auto;
     position: absolute;
-    top: 135%;
+    top: 170%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -1333,7 +1333,8 @@ iframe {
     width: auto;
     height: auto;
     position: absolute;
-    top: 135%;
+    position: absolute;
+    top: 170%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -1866,7 +1867,7 @@ iframe {
     width: auto;
     height: auto;
     position: absolute;
-    top: 130%;
+    top: 170%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -2394,7 +2395,7 @@ iframe {
     width: auto;
     height: auto;
     position: absolute;
-    top: 131%;
+    top: 170%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
