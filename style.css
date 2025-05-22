@@ -12,7 +12,7 @@ body {
     transform: translate(-50%, -50%);
     opacity: 0;
   }
-  
+
   100% {
     transform: translate(-50%, -50%);
     opacity: 1;
@@ -144,22 +144,18 @@ body {
   border: 1px solid transparent;
   padding: 5px 5px;
   margin: 5px 5px 5px 5px;
-  animation: slideto-left-in-out 2s normal;
+  animation: slideto-left-in-out 2s ease-in-out;
+  transition: slideto-left-in-out 2s ease-in-out;
 }
 
 @keyframes slideto-left-in-out {
   0% {
-    display: none;
+    transform: translate(-50%, -50%);
     opacity: 0;
   }
 
-  50% {
-    display: block;
-    opacity: 0.5;
-  }
-
   100% {
-    display: block;
+    transform: translate(-50%, -50%);
     opacity: 1;
   }
 }
@@ -377,16 +373,17 @@ iframe {
   border-radius: 5px;
   opacity: 0;
   animation: off-on 5s ease-in-out forwards;
+  transition: off-on 5s ease-in-out;
 }
 
 @keyframes off-on {
   0% {
-    display: none;
+    transform: translate(-50%, -50%);
     opacity: 0;
   }
 
   100% {
-    display: block;
+    transform: translate(-50%, -50%);
     opacity: 1;
   }
 }
@@ -482,22 +479,18 @@ iframe {
   border: 1px solid transparent;
   padding: 5px 5px;
   margin: 5px 5px 5px 5px;
-  animation: slideto-right-in-out 5s normal;
+  animation: slideto-right-in-out 5s ease-in-out;
+  transition: slideto-right-in-out 5s ease-in-out;
 }
 
 @keyframes slideto-right-in-out {
   0% {
-    display: none;
+    transform: translate(-50%, -50%);
     opacity: 0;
   }
 
-  50% {
-    display: block;
-    opacity: 0.5;
-  }
-
   100% {
-    display: block;
+    transform: translate(-50%, -50%);
     opacity: 1;
   }
 }
@@ -701,22 +694,18 @@ iframe {
     overflow: visible;
     background-color: black;
     src: local(Roboto-Bold);
-    animation: none-block 2s normal;
+    animation: none-block 2s ease-in-out;
+    transition: none-block 2s ease-in-out;
   }
 
   @keyframes none-block {
     0% {
-      display: none;
+      transform: translate(-50%, -50%);
       opacity: 0;
     }
 
-    50% {
-      display: block;
-      opacity: 0.5;
-    }
-
     100% {
-      display: block;
+      transform: translate(-50%, -50%);
       opacity: 1;
     }
   }
@@ -1234,22 +1223,18 @@ iframe {
     overflow: visible;
     background-color: black;
     src: local(Roboto-Bold);
-    animation: none-block 2s normal;
+    animation: none-block 2s ease-in-out;
+    transition: none-block 2s ease-in-out;
   }
 
   @keyframes none-block {
     0% {
-      display: none;
+      transform: translate(-50%, -50%);
       opacity: 0;
     }
 
-    50% {
-      display: block;
-      opacity: 0.5;
-    }
-
     100% {
-      display: block;
+      transform: translate(-50%, -50%);
       opacity: 1;
     }
   }
@@ -1768,22 +1753,18 @@ iframe {
     overflow: visible;
     background-color: black;
     src: local(Roboto-Bold);
-    animation: none-block 2s normal;
+    animation: none-block 2s ease-in-out;
+    transition: none-block 2s ease-in-out;
   }
 
   @keyframes none-block {
     0% {
-      display: none;
+      transform: translate(-50%, -50%);
       opacity: 0;
     }
 
-    50% {
-      display: block;
-      opacity: 0.5;
-    }
-
     100% {
-      display: block;
+      transform: translate(-50%, -50%);
       opacity: 1;
     }
   }
@@ -2301,22 +2282,18 @@ iframe {
     overflow: visible;
     background-color: black;
     src: local(Roboto-Bold);
-    animation: none-block 2s normal;
+    animation: none-block 2s ease-in-out;
+    transition: none-block 2s ease-in-out;
   }
 
   @keyframes none-block {
     0% {
-      display: none;
+      transform: translate(-50%, -50%);
       opacity: 0;
     }
 
-    50% {
-      display: block;
-      opacity: 0.5;
-    }
-
     100% {
-      display: block;
+      transform: translate(-50%, -50%);
       opacity: 1;
     }
   }
