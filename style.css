@@ -370,7 +370,7 @@ iframe {
   border: 1px solid transparent;
   border-radius: 5px;
   opacity: 0;
-  animation: off-on 5s ease-in-out forwards;
+  animation: off-on 5s ease-in-out;
   transition: off-on 5s ease-in-out;
 }
 
@@ -407,17 +407,12 @@ iframe {
 
 @keyframes txt-title-off-on {
   0% {
-    display: none;
+    transform: translate(-50%, -50%);
     opacity: 0;
   }
 
-  50% {
-    display: block;
-    opacity: 0.5;
-  }
-
   100% {
-    display: block;
+    transform: translate(-50%, -50%);
     opacity: 1;
   }
 }
@@ -698,12 +693,10 @@ iframe {
 
   @keyframes none-block {
     0% {
-      transform: translate(-50%, -50%);
       opacity: 0;
     }
 
     100% {
-      transform: translate(-50%, -50%);
       opacity: 1;
     }
   }
@@ -1227,12 +1220,10 @@ iframe {
 
   @keyframes none-block {
     0% {
-      transform: translate(-50%, -50%);
       opacity: 0;
     }
 
     100% {
-      transform: translate(-50%, -50%);
       opacity: 1;
     }
   }
@@ -2286,12 +2277,10 @@ iframe {
 
   @keyframes none-block {
     0% {
-      transform: translate(-50%, -50%);
       opacity: 0;
     }
 
     100% {
-      transform: translate(-50%, -50%);
       opacity: 1;
     }
   }
