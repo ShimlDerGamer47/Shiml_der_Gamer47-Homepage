@@ -63,6 +63,7 @@ body {
 
 .main-container {
   animation: main-off-on 2s normal;
+  transition: main-off-on 2s normal;
 }
 
 @keyframes main-off-on {
@@ -392,12 +393,10 @@ iframe {
 
 @keyframes txt-title-off-on {
   0% {
-    transform: translate(-50%, -50%);
     opacity: 0;
   }
 
   100% {
-    transform: translate(-50%, -50%);
     opacity: 1;
   }
 }
