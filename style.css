@@ -448,10 +448,10 @@ iframe {
   max-height: auto;
   height: auto;
   display: flex;
-  align-content: end;
-  align-items: end;
-  justify-content: end;
-  justify-items: end;
+  align-content: flex-end;
+  align-items: flex-end;
+  justify-content: flex-end;
+  justify-items: flex-end;
   direction: rtl;
   flex-direction: column;
   justify-content: space-evenly;
