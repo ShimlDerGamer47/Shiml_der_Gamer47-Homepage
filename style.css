@@ -8,10 +8,17 @@ body {
 
 @keyframes body-off-on {
   0% {
+    display: none;
     opacity: 0;
   }
 
+  50% {
+    display: block;
+    opacity: 0.5;
+  }
+
   100% {
+    display: block;
     opacity: 1;
   }
 }
@@ -53,10 +60,17 @@ body {
 
 @keyframes img-off-on {
   0% {
+    display: none;
     opacity: 0;
   }
 
+  50% {
+    display: block;
+    opacity: 0.5;
+  }
+
   100% {
+    display: block;
     opacity: 1;
   }
 }
@@ -67,10 +81,17 @@ body {
 
 @keyframes main-off-on {
   0% {
+    display: none;
     opacity: 0;
   }
 
+  50% {
+    display: block;
+    opacity: 0.5;
+  }
+
   100% {
+    display: block;
     opacity: 1;
   }
 }
@@ -132,10 +153,17 @@ body {
 
 @keyframes slideto-left-in-out {
   0% {
+    display: none;
     opacity: 0;
   }
 
+  50% {
+    display: block;
+    opacity: 0.5;
+  }
+
   100% {
+    display: block;
     opacity: 1;
   }
 }
@@ -357,12 +385,12 @@ iframe {
 
 @keyframes off-on {
   0% {
-    transform: translate(-50%, -50%);
+    display: none;
     opacity: 0;
   }
 
   100% {
-    transform: translate(-50%, -50%);
+    display: block;
     opacity: 1;
   }
 }
@@ -388,10 +416,17 @@ iframe {
 
 @keyframes txt-title-off-on {
   0% {
+    display: none;
     opacity: 0;
   }
 
+  50% {
+    display: block;
+    opacity: 0.5;
+  }
+
   100% {
+    display: block;
     opacity: 1;
   }
 }
@@ -456,10 +491,17 @@ iframe {
 
 @keyframes slideto-right-in-out {
   0% {
+    display: none;
     opacity: 0;
   }
 
+  50% {
+    display: block;
+    opacity: 0.5;
+  }
+
   100% {
+    display: block;
     opacity: 1;
   }
 }
@@ -668,10 +710,17 @@ iframe {
 
   @keyframes none-block {
     0% {
+      display: none;
       opacity: 0;
     }
 
+    50% {
+      display: block;
+      opacity: 0.5;
+    }
+
     100% {
+      display: block;
       opacity: 1;
     }
   }
@@ -1194,10 +1243,17 @@ iframe {
 
   @keyframes none-block {
     0% {
+      display: none;
       opacity: 0;
     }
 
+    50% {
+      display: block;
+      opacity: 0.5;
+    }
+
     100% {
+      display: block;
       opacity: 1;
     }
   }
@@ -1721,10 +1777,17 @@ iframe {
 
   @keyframes none-block {
     0% {
+      display: none;
       opacity: 0;
     }
 
+    50% {
+      display: block;
+      opacity: 0.5;
+    }
+
     100% {
+      display: block;
       opacity: 1;
     }
   }
@@ -2247,9 +2310,17 @@ iframe {
 
   @keyframes none-block {
     0% {
+      display: none;
       opacity: 0;
     }
+
+    50% {
+      display: block;
+      opacity: 0.5;
+    }
+
     100% {
+      display: block;
       opacity: 1;
     }
   }
