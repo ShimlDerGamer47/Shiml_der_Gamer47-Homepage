@@ -3,8 +3,7 @@ body {
   overflow: hidden;
   background-color: black;
   src: local(Roboto-Bold);
-  animation: body-off-on 500ms normal;
-  transition: body-off-on 500ms normal;
+  animation: body-off-on 0.2s normal;
 }
 
 @keyframes body-off-on {
@@ -56,6 +55,7 @@ body {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -63,7 +63,6 @@ body {
 
 .main-container {
   animation: main-off-on 2s normal;
-  transition: main-off-on 2s normal;
 }
 
 @keyframes main-off-on {
@@ -128,18 +127,15 @@ body {
   border: 1px solid transparent;
   padding: 5px 5px;
   margin: 5px 5px 5px 5px;
-  animation: slideto-left-in-out 2s ease-in-out;
-  transition: slideto-left-in-out 2s ease-in-out;
+  animation: slideto-left-in-out 2s normal;
 }
 
 @keyframes slideto-left-in-out {
   0% {
-    transform: translate(-50%, -50%);
     opacity: 0;
   }
 
   100% {
-    transform: translate(-50%, -50%);
     opacity: 1;
   }
 }
@@ -356,8 +352,7 @@ iframe {
   border: 1px solid transparent;
   border-radius: 5px;
   opacity: 0;
-  animation: off-on 5s ease-in-out;
-  transition: off-on 5s ease-in-out;
+  animation: off-on 5s ease-in-out forwards;
 }
 
 @keyframes off-on {
@@ -441,7 +436,7 @@ iframe {
   position: absolute;
   top: 50%;
   right: 10%;
-  transform: translate(0%, 0%, 50%, -50%);
+  transform: translate(50%, -50%);
   max-width: auto;
   width: auto;
   max-height: auto;
@@ -451,24 +446,20 @@ iframe {
   align-items: flex-end;
   justify-content: flex-end;
   justify-items: flex-end;
-  direction: rtl;
   flex-direction: column;
   justify-content: space-evenly;
   border: 1px solid transparent;
   padding: 5px 5px;
   margin: 5px 5px 5px 5px;
-  animation: slideto-right-in-out 5s ease-in-out;
-  transition: slideto-right-in-out 5s ease-in-out;
+  animation: slideto-right-in-out 5s normal;
 }
 
 @keyframes slideto-right-in-out {
   0% {
-    transform: translate(0, 0, 50%, -50%);
     opacity: 0;
   }
 
   100% {
-    transform: translate(0, 0, 50%, -50%);
     opacity: 1;
   }
 }
@@ -672,8 +663,7 @@ iframe {
     overflow: visible;
     background-color: black;
     src: local(Roboto-Bold);
-    animation: none-block 2s ease-in-out;
-    transition: none-block 2s ease-in-out;
+    animation: none-block 2s normal;
   }
 
   @keyframes none-block {
@@ -1199,8 +1189,7 @@ iframe {
     overflow: visible;
     background-color: black;
     src: local(Roboto-Bold);
-    animation: none-block 2s ease-in-out;
-    transition: none-block 2s ease-in-out;
+    animation: none-block 2s normal;
   }
 
   @keyframes none-block {
@@ -1727,18 +1716,15 @@ iframe {
     overflow: visible;
     background-color: black;
     src: local(Roboto-Bold);
-    animation: none-block 2s ease-in-out;
-    transition: none-block 2s ease-in-out;
+    animation: none-block 2s normal;
   }
 
   @keyframes none-block {
     0% {
-      transform: translate(-50%, -50%);
       opacity: 0;
     }
 
     100% {
-      transform: translate(-50%, -50%);
       opacity: 1;
     }
   }
@@ -2256,15 +2242,13 @@ iframe {
     overflow: visible;
     background-color: black;
     src: local(Roboto-Bold);
-    animation: none-block 2s ease-in-out;
-    transition: none-block 2s ease-in-out;
+    animation: none-block 2s normal;
   }
 
   @keyframes none-block {
     0% {
       opacity: 0;
     }
-
     100% {
       opacity: 1;
     }
