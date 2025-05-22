@@ -3,22 +3,18 @@ body {
   overflow: hidden;
   background-color: black;
   src: local(Roboto-Bold);
-  animation: body-off-on 0.2s normal;
+  animation: body-off-on 500ms ease-in-out;
+  transition: body-off-on 500ms ease-in-out;
 }
 
 @keyframes body-off-on {
   0% {
-    display: none;
+    transform: translate(-50%, -50%);
     opacity: 0;
   }
-
-  50% {
-    display: block;
-    opacity: 0.5;
-  }
-
+  
   100% {
-    display: block;
+    transform: translate(-50%, -50%);
     opacity: 1;
   }
 }
