@@ -18,6 +18,7 @@ document.addEventListener(
             width: 1920,
             height: 1080,
             channel: "shiml_der_gamer47",
+            animation: "body-off-on 0.2s normal",
             theme: "dark",
             autoplay: true,
             allowfullscreen: "true",
