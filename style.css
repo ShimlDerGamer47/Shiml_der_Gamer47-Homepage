@@ -457,7 +457,7 @@ iframe {
   position: absolute;
   top: 50%;
   right: 10%;
-  transform: translate(50%, -50%);
+  transform: translate(0%, 0%, 50%, -50%);
   max-width: auto;
   width: auto;
   max-height: auto;
@@ -478,12 +478,12 @@ iframe {
 
 @keyframes slideto-right-in-out {
   0% {
-    transform: translate(-50%, -50%);
+    transform: translate(0, 0, 50%, -50%);
     opacity: 0;
   }
 
   100% {
-    transform: translate(-50%, -50%);
+    transform: translate(0, 0, 50%, -50%);
     opacity: 1;
   }
 }
