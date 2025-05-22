@@ -376,12 +376,12 @@ iframe {
 
 @keyframes off-on {
   0% {
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(-0%);
     opacity: 0;
   }
 
   100% {
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(100%);
     opacity: 1;
   }
 }
@@ -463,10 +463,11 @@ iframe {
   max-height: auto;
   height: auto;
   display: flex;
-  align-content: flex-end;
-  align-items: flex-end;
-  justify-content: flex-end;
-  justify-items: flex-end;
+  align-content: end;
+  align-items: end;
+  justify-content: end;
+  justify-items: end;
+  direction: rtl;
   flex-direction: column;
   justify-content: space-evenly;
   border: 1px solid transparent;
@@ -479,11 +480,13 @@ iframe {
 @keyframes slideto-right-in-out {
   0% {
     transform: translate(0, 0, 50%, -50%);
+    direction: rtl;
     opacity: 0;
   }
 
   100% {
     transform: translate(0, 0, 50%, -50%);
+    direction: rtl;
     opacity: 1;
   }
 }
