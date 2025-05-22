@@ -3,8 +3,8 @@ body {
   overflow: hidden;
   background-color: black;
   src: local(Roboto-Bold);
-  animation: body-off-on 500ms ease-in-out;
-  transition: body-off-on 500ms ease-in-out;
+  animation: body-off-on 500ms normal;
+  transition: body-off-on 500ms normal;
 }
 
 @keyframes body-off-on {
